@@ -21,7 +21,7 @@
     "serve": "node server/entry.express",
     "start": "vite --open --mode ssr",
     "qwik": "qwik",
-    "build.all": "yarn build && yarn build.server"
+    "build.all": "yarn run build && yarn run build.server"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.1.5",
